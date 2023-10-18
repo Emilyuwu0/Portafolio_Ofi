@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Hero from "../hero/Hero";
-
+import "./header.scss";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -27,7 +27,7 @@ function Navbar() {
   ];
   return (
     <>
-      <nav className=" p-4">
+      <nav className=" p-4 ">
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-black font-semibold text-xl  absolute sm:left-20 z-40 sm:top-3 mt-2">
             <a href="/">Logo</a>
@@ -68,10 +68,15 @@ function Navbar() {
           </div>
         </div>
         {isOpen && (
-          <div className="md:hidden z-30">
-            <ul className="mt-2 space-y-2">
+          <div className="md:hidden  absolute z-40 div-absolute-min">
+            <div className="text-black font-semibold text-xl sm:top-3 mt-2">
+              <a href="/">Logo</a>
+            </div>
+            <ul className="mt-8 text-center">
               {menuList.map((item) => (
-                <li key={item.title}>{item.title}</li>
+                <li key={item.title} className="mb-10">
+                  {item.title}
+                </li>
               ))}
             </ul>
           </div>
