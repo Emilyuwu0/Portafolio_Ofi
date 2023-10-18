@@ -33,7 +33,7 @@ function Navbar() {
             <a href="/">Logo</a>
           </div>
           <div className="hidden md:block">
-            <ul className="space-x-4 flex font-medium z-10 absolute right-20">
+            <ul className="space-x-4 flex font-medium z-10 absolute right-20 cursor-pointer">
               {menuList.map((item) => (
                 <li className="mt-2" key={item.title}>
                   {item.title}
@@ -69,10 +69,10 @@ function Navbar() {
         </div>
         {isOpen && (
           <div className="md:hidden  absolute z-40 div-absolute-min">
-            <div className="text-black font-semibold text-xl sm:top-3 mt-2">
+            <div className="text-black font-semibold text-xl sm:top-3 mt-2 ">
               <a href="/">Logo</a>
             </div>
-            <ul className="mt-8 text-center">
+            <ul className="mt-8 text-center  cursor-pointer">
               {menuList.map((item) => (
                 <li key={item.title} className="mb-10">
                   {item.title}
