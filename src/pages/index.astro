@@ -2,12 +2,16 @@
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import Navbar from "../components/header/Header";
+import AboutMe from "../components/subComponents/aboutMe/About";
+import Curriculum from "../components/subComponents/curriculum/Curriculum";
+import Hability from "../components/subComponents/hability/Hability";
 import "../style/global.css";
 ---
 
 <Layout title="Portafolio Emily 💜">
   <Navbar client:load />
-  <main></main>
+
+  <div class="main"><AboutMe /><Curriculum /><Hability/></div>
 </Layout>
 
 <style>

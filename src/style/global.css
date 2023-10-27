@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @font-face {
     font-family: 'DistantGalaxy';
     src: url('/fonts/Poppings-Medium') format('ttf');
@@ -15,4 +16,8 @@
 }
 body{
     background-color: white;
+}
+.main{
+
+    padding:0rem 6rem;
 }

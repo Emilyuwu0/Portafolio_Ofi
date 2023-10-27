@@ -29,11 +29,11 @@ function Navbar() {
     <>
       <nav className=" p-4 ">
         <div className="container mx-auto flex justify-between items-center">
-          <div className="text-black font-semibold text-xl  absolute sm:left-20 z-40 sm:top-3 mt-2">
+          <div className="text-black font-semibold text-xl   sm:left-20 z-40 sm:top-3 mt-2">
             <a href="/">Logo</a>
           </div>
           <div className="hidden md:block">
-            <ul className="space-x-4 flex font-medium z-10 absolute right-20 cursor-pointer">
+            <ul className="space-x-4 flex font-medium z-10  right-20 cursor-pointer">
               {menuList.map((item) => (
                 <li className="mt-2" key={item.title}>
                   {item.title}
@@ -44,10 +44,10 @@ function Navbar() {
               </li>
             </ul>
           </div>
-          <div className="md:hidden absolute z-50 right-0 top-2">
+          <div className="md:hidden  z-50 right-0 top-2">
             <button
               onClick={toggleMenu}
-              className="text-back focus:outline-none absolute z-50  right-2 top-0"
+              className="text-back focus:outline-none  z-50  right-2 top-0"
             >
               <svg
                 className="w-6 h-6"
@@ -68,10 +68,8 @@ function Navbar() {
           </div>
         </div>
         {isOpen && (
-          <div className="md:hidden  absolute z-40 div-absolute-min">
-            <div className="text-black font-semibold text-xl sm:top-3 mt-2 ">
-              <a href="/">Logo</a>
-            </div>
+          <div className="md:hidden  z-40 div-absolute-min">
+            <div className="text-black font-semibold text-xl sm:top-3 mt-2 "></div>
             <ul className="mt-8 text-center  cursor-pointer">
               {menuList.map((item) => (
                 <li key={item.title} className="mb-10">
