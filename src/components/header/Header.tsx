@@ -45,7 +45,7 @@ function Navbar() {
               </li> */}
             </ul>
           </div>
-          <div className="md:hidden text-center m-auto z-50 right-0 top-2">
+          <div className="md:hidden  z-50 right-0 top-2">
             <button
               onClick={toggleMenu}
               className="text-back focus:outline-none  z-50  right-2 top-0"

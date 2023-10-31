@@ -15,9 +15,9 @@
  
 }
 body{
- 
+ background:white;
 }
-.main{
 
-    padding:0rem 6rem;
+.z-index-global{
+    z-index: 99;
 }
