@@ -21,30 +21,31 @@ function Navbar() {
       redirect: "",
     },
     {
-      title: "Exp",
+      title: "Experiencia",
       redirect: "",
     },
   ];
   return (
-    <>
-      <nav className=" p-4 ">
+    <div>
+      <div className="circle-background"></div>
+      <nav className=" p-4 bg-white z-30  background-image-color ">
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-black font-semibold text-xl   sm:left-20 z-40 sm:top-3 mt-2">
             <a href="/">Logo</a>
           </div>
-          <div className="hidden md:block">
-            <ul className="space-x-4 flex font-medium z-10  right-20 cursor-pointer">
+          <div className="hidden md:block  z-30 text-center m-auto">
+            <ul className="space-x-4 flex font-medium z-10  mt-2 right-20 cursor-pointer text-lg">
               {menuList.map((item) => (
                 <li className="mt-2" key={item.title}>
                   {item.title}
                 </li>
               ))}{" "}
-              <li className="bg-purple-600 py-2 px-4 rounded-2xl text-white">
+              {/*        <li className="bg-pink-500 py-2 px-4 rounded-2xl text-white">
                 Sobre mí
-              </li>
+              </li> */}
             </ul>
           </div>
-          <div className="md:hidden  z-50 right-0 top-2">
+          <div className="md:hidden text-center m-auto z-50 right-0 top-2">
             <button
               onClick={toggleMenu}
               className="text-back focus:outline-none  z-50  right-2 top-0"
@@ -81,7 +82,7 @@ function Navbar() {
         )}
       </nav>
       <Hero />
-    </>
+    </div>
   );
 }
 

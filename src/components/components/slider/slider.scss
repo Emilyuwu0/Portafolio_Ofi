@@ -1,31 +1,19 @@
-.carousel-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-  }
-  
-  .carousel {
-    display: flex;
-    overflow: hidden;
-    width: 80%; /* Ancho del carrusel */
-    margin: 0 auto;
-    border-radius: 20px; /* Hace que el carrusel sea ovalado */
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .slide {
-    flex: 1;
-    padding: 20px;
-    text-align: center;
-    background-color: #0074d9;
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .slide.active {
-    background-color: #ff4136; /* Cambia el color del slide activo */
-  }
-  
+.carousel {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.slide {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.slide.active {
+  opacity: 1;
+}
