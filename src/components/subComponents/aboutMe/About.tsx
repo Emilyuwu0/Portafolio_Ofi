@@ -5,22 +5,17 @@ export default function AboutMe() {
   return (
     <>
       <div className=" mx-auto px-4 flex flex-col lg:flex-row items-center mb-20  sm:mt-52 mt-0">
-        {" "}
         <div className="bg-img-circle"></div>
         <div className="lg:w-1/2 z-index-global ">
-          {" "}
           <div className="sm:mt-28 mt-2 sm:ml-12 mt:ml-2 z-index-global ">
-            {" "}
             <img src={ImgKawaii.src} />
           </div>
         </div>
         <div className="lg:w-1/2 mt-10 lg:mt-0 z-30 ">
-          {" "}
           <h1 className="text-3xl mb-20 font-semibold sm:text-left text-center">
             ¡Hola! Soy <span className="text-pink-500">Emily</span> 👩‍💻
           </h1>
           <p className="leading-relaxed sm:pr-40 pr-0 sm:text-left text-center">
-            {" "}
             Una desarrolladora de software con experiencia en la creación de
             diversos proyectos centrados en la mejora de la experiencia de
             usuario (UI/UX). He trabajado con una variedad de tecnologías y
