@@ -5,13 +5,16 @@ import Navbar from "../components/header/Header";
 import AboutMe from "../components/subComponents/aboutMe/About";
 import Curriculum from "../components/subComponents/curriculum/Curriculum";
 import Hability from "../components/subComponents/hability/Hability";
+import Timeline from "../components/subComponents/Timeline/Timeline";
 import "../style/global.css";
 ---
 
 <Layout title="Portafolio Emily 💜" >
   <Navbar client:load />
 
-  <div class="main bg-white"><AboutMe /><Curriculum /><Hability/></div>
+  <div class="main bg-white"><AboutMe client:load  /><Curriculum client:load />
+    <Hability client:load />
+    <Timeline client:load /></div>
 </Layout>
 
 <style>

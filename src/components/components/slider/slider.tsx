@@ -1,36 +1,35 @@
 import { useState, useEffect } from "react";
 import "./slider.scss";
 
-const slides = [
-  "https://i.pinimg.com/564x/bd/ab/cd/bdabcd6ed70d821372720cf5a2d0afe1.jpg",
-  "https://i.pinimg.com/564x/bd/ab/cd/bdabcd6ed70d821372720cf5a2d0afe1.jpg",
-  "https://i.pinimg.com/564x/bd/ab/cd/bdabcd6ed70d821372720cf5a2d0afe1.jpg",
-  "https://i.pinimg.com/564x/bd/ab/cd/bdabcd6ed70d821372720cf5a2d0afe1.jpg",
-];
-function Carousel() {
+const Carousel = ({ items, autoplayInterval }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((currentIndex + 1) % slides.length);
-    }, 3000); // Cambia cada 3 segundos
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % items.length);
+    }, autoplayInterval);
 
     return () => {
       clearInterval(interval);
     };
-  }, [currentIndex]);
+  }, [currentIndex, items.length, autoplayInterval]);
 
   return (
-    <div className="carousel">
-      {slides.map((image, index) => (
-        <div
-          key={index}
-          className={`slide ${index === currentIndex ? "active" : ""}`}
-          style={{ backgroundImage: `url(${image})` }}
-        ></div>
-      ))}
+    <div className="carousel-container">
+      <div
+        className="carousel"
+        style={{
+          transform: `translateX(-${currentIndex * 100}%)`,
+          transition: "transform 1s",
+        }}
+      >
+        {items.map((item, index) => (
+          <div className="carousel-item" key={index}>
+            {item}
+          </div>
+        ))}
+      </div>
     </div>
   );
-}
-
+};
 export default Carousel;
