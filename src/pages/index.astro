@@ -6,6 +6,8 @@ import AboutMe from "../components/subComponents/aboutMe/About";
 import Curriculum from "../components/subComponents/curriculum/Curriculum";
 import Hability from "../components/subComponents/hability/Hability";
 import Timeline from "../components/subComponents/Timeline/Timeline";
+import Projects from "../components/subComponents/projects/Projects";
+import Footer from "../components/footer/Footer";
 import "../style/global.css";
 ---
 
@@ -15,6 +17,8 @@ import "../style/global.css";
   <div class="main bg-white"><AboutMe client:load  /><Curriculum client:load />
     <Hability client:load />
     <Timeline client:load /></div>
+    <Projects/>
+    <Footer/>
 </Layout>
 
 <style>
