@@ -10,7 +10,7 @@ import xD from "../../../assets/Skills/xd.png";
 
 export default function Hability() {
   const items = [
-    <>
+    <div >
       <h1 className="text-center text-2xl font-semibold sm:mb-20 mb-10">
         UI/UX 🎀
       </h1>
@@ -21,7 +21,7 @@ export default function Hability() {
         <img src={Ilustrator.src} className="w-40 h-40 ml-4" />
         <img src={xD.src} className="w-40 h-40 ml-4" />
       </div>
-    </>,
+    </div>,
     <>
       {" "}
       <h1 className="text-center text-2xl font-semibold sm:mb-20 mb-10">
@@ -67,7 +67,8 @@ export default function Hability() {
   ];
   const autoplayInterval = 3000;
   return (
-    <div className="text-black sm:p-40 p-2 '">
+    <div className="bg-colorSecondary">
+    <div className="text-white sm:p-40 p-2 '">
       <h1 className="text-3xl text-center font-medium z-40 sm:mb-40 mb-20">
         {" "}
         Habilidades{" "}
@@ -75,6 +76,6 @@ export default function Hability() {
       <div>
         <Carousel items={items} autoplayInterval={autoplayInterval} />
       </div>
-    </div>
+    </div></div>
   );
 }

@@ -1,7 +1,7 @@
 import "./timeline.scss";
 export default function Timeline() {
   return (
-    <div>
+<div className="bg-colorSecondary">
       <h1 className="text-3xl text-center font-medium z-40 mb-2">
         {" "}
         Experiencia
@@ -13,7 +13,7 @@ export default function Timeline() {
           <div className="timeline-middle">
             <div className="timeline-circle"></div>
           </div>
-          <div className="timeline-component timeline-content text-black">
+          <div className="timeline-component timeline-content text-white">
             <h3 className=" font-bold mb-4">Frontend Developer</h3>
             <p>
               AntPack · Jornada completa <br /> oct. 2022 - actualidad

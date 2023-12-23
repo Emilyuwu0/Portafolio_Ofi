@@ -1,9 +1,9 @@
-import "./index.css";
+
 export default function Projects() {
   return (
     <ul
       role="list"
-      className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+      className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 bg-colorSecondary"
     >
       {people.map((person) => (
         <li key={person.name}>
@@ -77,3 +77,7 @@ const people = [
       "https://cdn.discordapp.com/attachments/966004692985475183/1186794816969900072/image.png?ex=65948bcd&is=658216cd&hm=efc95e45b6e362fec0a28953f8152afbedf32a3bb33fb3b5d0d008b06cebc989&",
   },
 ];
+
+<style>
+  
+</style>

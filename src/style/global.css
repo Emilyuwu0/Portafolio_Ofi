@@ -15,9 +15,25 @@
  
 }
 body{
- background:white;
+ background:#021126;
 }
 
 .z-index-global{
     z-index: 99;
 }
+
+
+@keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animated-fadeInDown {
+    animation: fadeInDown 0.5s ease-out;
+  }

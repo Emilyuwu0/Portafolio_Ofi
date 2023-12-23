@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
-import Navbar from "../components/header/Header";
+import Hero from "../components/hero/Hero";
 import AboutMe from "../components/subComponents/aboutMe/About";
 import Curriculum from "../components/subComponents/curriculum/Curriculum";
 import Hability from "../components/subComponents/hability/Hability";
@@ -12,9 +12,9 @@ import "../style/global.css";
 ---
 
 <Layout title="Portafolio Emily 💜" >
-  <Navbar client:load />
+  <Hero client:load />
 
-  <div class="main bg-white"><AboutMe client:load  /><Curriculum client:load />
+  <div class="main  bg-colorPrimary"><AboutMe client:load  /><Curriculum client:load />
     <Hability client:load />
     <Timeline client:load /></div>
     <Projects/>
