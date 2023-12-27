@@ -28,7 +28,7 @@
 .timeline-content {
   padding: 20px;
   background: rgb(238,174,202);
-  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, #E9DCC0 87%);
+  background: #0a1320;
 /*   -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
           box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424; */
   border-radius: 5px;
@@ -52,7 +52,7 @@
   }
   .timeline-middle {
     position: relative;
-    background:#000000;
+    background: linear-gradient(90deg, #4E59E6 0%, #693BD7 87%);
     width: 5px;
     height: 105%;
     border-radius: 20px;
@@ -67,7 +67,7 @@
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background: linear-gradient(90deg, rgb(255, 140, 190) 0%, #E9DCC0 87%);
+    background: linear-gradient(90deg, #4E59E6 0%, #693BD7 87%);
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }

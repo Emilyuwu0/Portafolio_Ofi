@@ -1,4 +1,4 @@
-import ImgKawaii from "../../../assets/Imgs/9193347.png";
+import ImgKawaii from "../../../assets/Imgs/cat.png";
 import "./about.scss";
 import "../../../style/global.css";
 import ScrollAnimation from "../../utils/Scroll";
@@ -13,7 +13,7 @@ export default function AboutMe() {
           <div className="container mx-auto p-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center sm:mt-10 mt-2 sm:mb-10 mb-2">
               <div className="p-4">
-                <p className="text-white"></p>
+       <img src={ImgKawaii.src} alt="kawaii" className="w-80 m-auto" />
               </div>
 
               <div className="p-4">

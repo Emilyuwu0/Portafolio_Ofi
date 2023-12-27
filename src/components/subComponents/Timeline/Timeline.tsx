@@ -1,11 +1,13 @@
 import "./timeline.scss";
 export default function Timeline() {
   return (
-<div className="bg-colorSecondary">
-      <h1 className="text-3xl text-center font-medium z-40 mb-2">
-        {" "}
-        Experiencia
+    <div className="bg-blackSecond pt-24 ">
+      <h1 className=" mb-4 text-4xl font-extrabold leading-10 text-white text-center tracking-tight sm:text-4xl sm:leading-none md:text-4xl">
+        XP ✨
       </h1>
+      <div className="flex mt-6 justify-center">
+        <div className="w-16 h-1 rounded-full bg-colorComplementaryTwo inline-flex"></div>
+      </div>
       <div className="design-section ">
         <div className="timeline">
           <div className="timeline-empty"></div>
