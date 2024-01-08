@@ -1,7 +1,7 @@
 import "./index.css";
 export default function Projects() {
   return (
-    <div className="pt-8 md:pt-24 p-20 mb-8 md:mb-40">
+    <div className="bg-colorSecondary pt-8 md:pt-24 p-20 mb-8 md:mb-40" id="project">
       <h1 className=" mb-4 text-4xl font-extrabold leading-10 text-white text-center tracking-tight sm:text-4xl sm:leading-none md:text-4xl">
         Proyectos
       </h1>

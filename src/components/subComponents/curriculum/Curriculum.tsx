@@ -1,14 +1,14 @@
 import "./curriculum.scss";
 export default function Hability() {
   return (
-    <div className="bg-colorSecondary ">
-      <div className="container mx-auto p-4 ">
+<div className="bg-colorSecondary " id="curriculum">
+      <div className="container mx-auto pt-20 ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className=" p-4">
-            <h1 className="text-2xl mb-6 font-semibold text-white">
+          <div className=" p-10 ml-20">
+            <h1 className="text-2xl mb-6 font-semibold text-white ">
               Mira mi <span className="text-colorTertiary">Currículum</span>
             </h1>
-            <p className="text-white">
+            <p className="text-white text-lg">
               Mi pasión por desarrollar me impulsa a ofrecer resultados
               excepcionales y contribuir de manera significativa a cualquier
               equipo en el que me encuentre. Estoy emocionado por las

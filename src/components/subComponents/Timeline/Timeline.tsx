@@ -1,7 +1,10 @@
 import "./timeline.scss";
 export default function Timeline() {
   return (
-    <div className="bg-blackSecond pt-24 ">
+    /*    <div className="timeline-middle">
+  <div className="timeline-circle animate-bounce"></div>
+</div> */
+    <div className=" pt-24 bg-timeline " id="exp">
       <h1 className=" mb-4 text-4xl font-extrabold leading-10 text-white text-center tracking-tight sm:text-4xl sm:leading-none md:text-4xl">
         XP ✨
       </h1>

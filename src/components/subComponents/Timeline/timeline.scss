@@ -1,4 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap");
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+.bg-timeline {
+  background-image: url("../../../assets/Bg/timeline.png");
+  background-size: cover; /* You can use other values like 'contain', 'auto', etc. */
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .design-section {
   display: flex;
   flex-direction: column;
@@ -27,9 +37,9 @@
 
 .timeline-content {
   padding: 20px;
-  background: rgb(238,174,202);
+  background: rgb(238, 174, 202);
   background: #0a1320;
-/*   -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+  /*   -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
           box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424; */
   border-radius: 5px;
   color: white;
@@ -52,7 +62,7 @@
   }
   .timeline-middle {
     position: relative;
-    background: linear-gradient(90deg, #4E59E6 0%, #693BD7 87%);
+    background: linear-gradient(90deg, #4e59e6 0%, #693bd7 87%);
     width: 5px;
     height: 105%;
     border-radius: 20px;
@@ -67,8 +77,15 @@
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background: linear-gradient(90deg, #4E59E6 0%, #693BD7 87%);
+    background: linear-gradient(90deg, #4e59e6 0%, #693bd7 87%);
     -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
   }
+}
+
+////////////////////////}
+
+.timeline-circle {
+  @apply animate-bounce; // Agrega la clase de animación que prefieras
+  margin-left: -12px;
 }

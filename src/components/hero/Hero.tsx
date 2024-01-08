@@ -10,19 +10,19 @@ export default function Hero() {
   const menuList = [
     {
       title: "Habilidades",
-      redirect: "",
+      href: "#skills",
     },
     {
       title: "Curriculum",
-      redirect: "",
+      href: "#curriculum",
     },
     {
       title: "Proyectos",
-      redirect: "",
+      href: "#project",
     },
     {
       title: "Experiencia",
-      redirect: "",
+      href: "#exp",
     },
   ];
   return (
@@ -36,9 +36,9 @@ export default function Hero() {
             <div className="hidden md:block  z-30 text-center m-auto">
               <ul className="space-x-4 flex font-light z-10  mt-2 right-20 cursor-pointer text-lg text-white ">
                 {menuList.map((item) => (
-                  <li className="mt-2" key={item.title}>
+              <a className="mt-2" key={item.title} href={item.href}>
                     {item.title}
-                  </li>
+                  </a>
                 ))}{" "}
                 {/*        <li className="bg-pink-500 py-2 px-4 rounded-2xl text-white">
                 Sobre mí

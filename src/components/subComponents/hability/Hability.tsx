@@ -1,5 +1,84 @@
+import { useState } from "react";
 import "./hability.css";
 
+const CarouselItem = ({ item }) => {
+  return (
+    <>
+      <div className="p-4 carousel-focus flex items-center flex-col relative bg-colorPrimary mx-5 my-10 px-3 py-3 rounded-lg shadow-lg w-64">
+        <img
+          className="h-40 w-40 rounded-full -mt-16  bg-white"
+          src={item.imageUrl}
+          alt="Img"
+        />
+        <p className="text-teal-400 font-bold text-xl mb-3 text-white mt-4">
+          {item.title}
+        </p>
+        <p className="text-white mb-4">{item.description} </p>
+      </div>
+    </>
+  );
+};
+export default function Hability() {
+  return (
+    <div className="bg-colorSecondary  p-4" id="skills">
+   
+
+      <h1 className="pt-20 text-4xl font-extrabold leading-10 text-white text-center tracking-tight sm:text-4xl sm:leading-none md:text-4xl">
+        Skills Técnicas 🎮
+      </h1>
+      <div className="flex mt-6 justify-center">
+        <div className="w-16 h-1 rounded-full bg-colorComplementaryTwo inline-flex"></div>
+      </div>
+      <div className="container mx-auto w-full overflow-hidden relative pt-20">
+        <div className="w-full h-full absolute">
+          <div className="w-1/4 h-full absolute z-50 left-0"></div>
+          <div className="w-1/4 h-full absolute z-50 right-0"></div>
+        </div>
+
+        <div
+          className="carousel-items flex items-center justify-center"
+          style={{
+            width: "fit-content",
+            animation: "carouselAnim 40s infinite alternate linear",
+          }}
+        >
+          {[...Array(20)].map((_, index) => (
+            <CarouselItem key={index} item={ObjetsCarrouisel[index]} />
+          ))}
+        </div>
+      </div>
+
+      <h1 className="pt-20 text-4xl font-extrabold leading-10 text-white text-center tracking-tight sm:text-4xl sm:leading-none md:text-4xl">
+        Skills Profesionales 🔰
+      </h1>
+      <div className="container mx-auto p-4">
+        <div className="flex flex-wrap">
+          <div className="w-full lg:w-2/3 lg:flex-grow min-w-0  p-4">
+            <ul role="list" className=" text-white">
+              {Skill.map((person) => (
+                <li key={person.name} className="col-span-1 rounded-lg mb-8">
+                  <div className="">
+                    <div className="text mt-4">
+                      <p className="text-lg  font-semibold">{person.name}</p>
+                      <div className="progress">
+                        <div className={` ${person.level}`}></div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="w-full lg:w-1/3 bg-gray-200 p-4">
+            <h2 className="text-xl font-bold mb-4">Columna Lateral</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 const ObjetsCarrouisel = [
   {
     title: "Figma",
@@ -124,49 +203,22 @@ const ObjetsCarrouisel = [
   },
 ];
 
-const CarouselItem = ({ item }) => {
-  return (
-    <> 
-    <div className="p-4 carousel-focus flex items-center flex-col relative bg-colorPrimary mx-5 my-10 px-3 py-3 rounded-lg shadow-lg w-64">
-      <img
-        className="h-40 w-40 rounded-full -mt-16  bg-white"
-        src={item.imageUrl}
-        alt="Img"
-      />
-      <p className="text-teal-400 font-bold text-xl mb-3 text-white mt-4">
-        {item.title}
-      </p>
-      <p className="text-white mb-4">{item.description} </p>
-    </div>
-    </>
-   
-  );
-};
-export default function Hability() {
-  return (
-    <div className="bg-colorSecondary ">
-         <h1 className="pt-20 text-4xl font-extrabold leading-10 text-white text-center tracking-tight sm:text-4xl sm:leading-none md:text-4xl">Skills</h1>
-         <div className="flex mt-6 justify-center">
-              <div className="w-16 h-1 rounded-full bg-colorComplementaryTwo inline-flex"></div>
-            </div>
-      <div className="container mx-auto w-full overflow-hidden relative pt-20">
-        <div className="w-full h-full absolute">
-          <div className="w-1/4 h-full absolute z-50 left-0"></div>
-          <div className="w-1/4 h-full absolute z-50 right-0"></div>
-        </div>
-     
-        <div
-          className="carousel-items flex items-center justify-center"
-          style={{
-            width: "fit-content",
-            animation: "carouselAnim 20s infinite alternate linear",
-          }}
-        >
-          {[...Array(20)].map((_, index) => (
-            <CarouselItem key={index} item={ObjetsCarrouisel[index]} />
-          ))}
-        </div>
-      </div>
-    </div>
-  );
-}
+const Skill = [
+  {
+    name: "Equipo de trabajo",
+    level: "progress-value",
+  },
+
+  {
+    name: "Iniciativa",
+    level: "progress-value-medium",
+  },
+  {
+    name: "Orientación al logro Creatividad",
+    level: "progress-value-medium",
+  },
+  {
+    name: "Dedicación",
+    level: "progress-value-loadintermediate",
+  },
+];

@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     colors: {
       colorPrimary: "#4006AD",
-      colorSecondary: "#021126",
+      colorSecondary: "#021028",
       white: "#fff",
-      colorTertiary: "#947DBF",
+      colorTertiary: "#693FE9",
       colorComplementary:"#4E59E6",
       colorComplementaryTwo:"#693BD7",
       blackSecond: "#010915",

@@ -34,7 +34,7 @@ export default function Footer() {
               ))}
             </div>
             <p className="mt-10 text-center text-xs leading-5 text-white">
-              &copy; 2020 Your Company, Inc. All rights reserved.
+              &copy; 2023 Your Company, Inc. All rights reserved.
             </p>
           </div>
         </footer>
@@ -46,10 +46,10 @@ export default function Footer() {
 
 const navigation = {
   main: [
-    { name: "Habilidades", href: "#" },
-    { name: "Curriculum", href: "#" },
-    { name: "Proyectos", href: "#" },
-    { name: "Experiencia", href: "#" },
+    { name: "Habilidades", href: "#skills" },
+    { name: "Curriculum", href: "#curriculum" },
+    { name: "Proyectos", href: "#project" },
+    { name: "Experiencia", href: "#exp" },
   ],
   social: [
     {

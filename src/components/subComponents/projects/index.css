@@ -47,20 +47,17 @@ transition: 0.2s ease-in-out;
 }
 
 .text .h3 {
-  font-family: "Lucida Sans" sans-serif;
   font-size: 15px;
   font-weight: 600;
   color: black;
 }
 
 .text .p {
-  font-family: "Lucida Sans" sans-serif;
   font-size: 13px;
 }
 
 .icon-box .span {
   margin-left: 10px;
-  font-family: "Lucida Sans" sans-serif;
   font-size: 13px;
   font-weight: 500;
   color: #9198e5;
@@ -79,8 +76,8 @@ transition: 0.2s ease-in-out;
   fill: #ced8de;
 }
 .card:hover {
-  filter: drop-shadow(5px 5px 0px rgb(185,100,255))
-  drop-shadow(5px 5px 0px rgb(103,74,255))
-  drop-shadow(5px 5px 0px rgb(12,204,238));
+  filter: drop-shadow(5px 5px 0px #b964ff)
+  drop-shadow(5px 5px 0px #684aff)
+  drop-shadow(5px 5px 0px #0cccee);
   scale: 1.05;
 }
