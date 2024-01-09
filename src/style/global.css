@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @font-face {
     font-family: 'DistantGalaxy';
     src: url('/fonts/Poppings-Medium') format('ttf');
@@ -9,7 +10,58 @@
     font-style: normal;
     font-display: swap;
 }
-
 * {
     font-family: 'Poppins', sans-serif;
+ 
+}
+body{
+ background:#021028;
+}
+
+.z-index-global{
+    z-index: 99;
+}
+
+
+@keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animated-fadeInDown {
+    animation: fadeInDown 0.5s ease-out;
+  }
+
+
+  /* Estilo del contenedor del scroll */
+body {
+  overflow-y: scroll; /* Muestra la barra de desplazamiento vertical incluso si no es necesario */
+  scroll-behavior: smooth; /* Transiciones suaves entre posiciones de scroll */
+}
+
+/* Estilo de la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 12px; /* Ancho de la barra de desplazamiento */
+}
+
+/* Estilo del "track" de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+  background-color:#021126; /* Color del fondo del "track" */
+}
+
+/* Estilo del "thumb" de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(20deg, #4E59E6 0%, #693BD7 87%);/* Color de la barra de desplazamiento */
+  border-radius: 6px; /* Borde redondeado de la barra de desplazamiento */
+}
+
+/* Estilo del "corner" de la barra de desplazamiento */
+::-webkit-scrollbar-corner {
+  background-color: #f1f1f1; /* Color de la esquina de la barra de desplazamiento */
 }
