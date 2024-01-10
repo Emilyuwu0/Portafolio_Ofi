@@ -1,7 +1,7 @@
 import "./curriculum.scss";
 export default function Hability() {
   return (
-<div className="bg-colorSecondary " id="curriculum">
+    <div className="bg-colorSecondary " id="curriculum">
       <div className="container mx-auto pt-20 ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className=" p-10 ml-20">
@@ -17,25 +17,28 @@ export default function Hability() {
             </p>
           </div>
           <div className=" p-4 text-white">
-            <section className="product-container product-1" >
-              <a target="_blank" href="https://www.canva.com/design/DAFKtaj7nlY/lWXClJYxIEESqj7jOYIp7Q/edit?utm_content=DAFKtaj7nlY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
-              <div className="e-card playing">
-                <div className="image"></div>
+            <section className="product-container product-1">
+              <a
+                target="_blank"
+                href="https://www.canva.com/design/DAFKtaj7nlY/lWXClJYxIEESqj7jOYIp7Q/edit?utm_content=DAFKtaj7nlY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+              >
+                <div className="e-card playing">
+                  <div className="image"></div>
 
-                <div className="wave"></div>
-                <div className="wave"></div>
-                <div className="wave"></div>
+                  <div className="wave"></div>
+                  <div className="wave"></div>
+                  <div className="wave"></div>
 
-                <div className="infotop">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="icon"
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M19.4133 4.89862L14.5863 2.17544C12.9911 1.27485 11.0089 1.27485 9.41368 2.17544L4.58674
+                  <div className="infotop">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      className="icon"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M19.4133 4.89862L14.5863 2.17544C12.9911 1.27485 11.0089 1.27485 9.41368 2.17544L4.58674
   4.89862C2.99153 5.7992 2 7.47596 2 9.2763V14.7235C2 16.5238 2.99153 18.2014 4.58674 19.1012L9.41368
   21.8252C10.2079 22.2734 11.105 22.5 12.0046 22.5C12.6952 22.5 13.3874 22.3657 14.0349 22.0954C14.2204
   22.018 14.4059 21.9273 14.5872 21.8252L19.4141 19.1012C19.9765 18.7831 20.4655 18.3728 20.8651
@@ -49,14 +52,15 @@ export default function Hability() {
   19.8922 11.8742V14.7235C19.8922 15.2278 19.7589 15.7254 19.5119 16.1662C18.7615 15.3596 17.6806 14.8528
    16.4783 14.8528C14.2136 14.8528 12.3781 16.6466 12.3781 18.8598C12.3781 19.3937 12.4861 19.9021 12.68
    20.3676C11.9347 20.5316 11.1396 20.4203 10.4684 20.0413H10.4676Z"
-                    ></path>
-                  </svg>
-                  <br />
-                  Curriculum
-                  <br />
-                  <div className="name">Presioname!</div>
+                      ></path>
+                    </svg>
+                    <br />
+                    Curriculum
+                    <br />
+                    <div className="name">Presioname!</div>
+                  </div>
                 </div>
-              </div></a>
+              </a>
             </section>
           </div>
         </div>
