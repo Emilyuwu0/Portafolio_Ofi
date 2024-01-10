@@ -10,7 +10,7 @@ export default function Projects() {
       </div>
       <ul
         role="list"
-        className="grid grid-cols-1 gap-8 md:gap-24 lg:grid-cols-2 xl:grid-cols-4 text-white"
+        className="grid grid-cols-2 gap-8 md:gap-24 lg:grid-cols-2 xl:grid-cols-4 text-white"
       >
         {people.map((person) => (
           <li key={person.name} className="col-span-1 rounded-lg mb-8">

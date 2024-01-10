@@ -27,7 +27,7 @@ export default function Hero() {
   ];
   return (
     <>
-      <header className="pt-2 pb-10 pr-6 pl-6 md:pr-10 md:pl-10 bg-white background-image-color">
+      <header className="pt-2 pb-10 pr-6 pl-6 md:pr-10 md:pl-10 bg-white gradient-bg">
         <nav className="p-4 z-30 mb-8">
           <div className="container mx-auto flex justify-between items-center">
             <div className="text-white font-semibold text-xl   sm:left-20 z-40 ">
