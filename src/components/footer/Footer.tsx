@@ -4,7 +4,7 @@ export default function Footer() {
     <>
       <div className=" bg-colorPrimary rounded-t-3xl  shadow-card">
         <footer className=" rounded-lg">
-          <div className="mx-auto max-w-7xl overflow-hidden px-6 py-18 sm:py-24 lg:px-8 pt-6">
+          <div className="mx-auto max-w-7xl overflow-hidden px-6 py-18 sm:py-24 lg:px-8 pt-6 pb-6">
             <nav
               className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
               aria-label="Footer"
