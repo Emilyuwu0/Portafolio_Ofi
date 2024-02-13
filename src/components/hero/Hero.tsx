@@ -89,12 +89,12 @@ export default function Hero() {
                 Emily Orduz
               </h1>
               <span className="sm:flex block text-2xl mt-6  sm:text-left text-center">
-                <h4 className=" text-white  font-medium">Frontend </h4>
-                <h4 className="ml-2  font-medium"> Developer</h4>
+                <h4 className=" text-white  font-medium">Frontend Developer</h4>
+                <h4 className="ml-2  font-medium"> 🔮</h4>
               </span>
-              <button className="bg-white py-2 px-6 rounded-xl text-black mt-10 text-lg sm:ml-0 m-auto block shadow-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
+              <a href="#aboutme" className="bg-white py-2 w-32 px-6 rounded-xl text-black mt-10 text-lg sm:ml-0 m-auto block shadow-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
                 Sobre mí
-              </button>
+              </a>
             </div>
           </div>
 

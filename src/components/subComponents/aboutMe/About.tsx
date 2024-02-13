@@ -7,11 +7,11 @@ export default function AboutMe() {
   return (
 <>
   <div className="rounded-t-3xl -mt-6 bg-colorPrimary h-6 shadow-card gradient"></div>
-  <div className="bg-colorPrimary">
+  <div className="bg-colorPrimary " id="aboutme">
     <div className="rounded-t-3xl -mt-1 bg-colorSecondary p-4 md:p-12">
       <div className="container mx-auto">
         <div className="p-4 md:mt-14">
-          <p className="text-white">
+          <p className="text-white ">
             <ScrollAnimation threshold={600}>
               <h1 className="text-2xl md:text-3xl mb-6 font-semibold text-center">
                 ¡Hola! Soy{" "}
