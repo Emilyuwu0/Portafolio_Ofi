@@ -22,60 +22,61 @@ const CarouselItem = ({ item }) => {
 };
 export default function Hability() {
   return (
-    <div className="bg-colorSecondary p-4" id="skills">
-  <h1 className="pt-8 md:pt-20 text-2xl md:text-4xl font-extrabold leading-10 text-white text-center tracking-tight sm:text-4xl sm:leading-none md:text-4xl">
-    Skills Técnicas 🎮
-  </h1>
-  <div className="flex mt-2 md:mt-6 justify-center">
-    <div className="w-16 h-1 rounded-full bg-colorComplementaryTwo inline-flex"></div>
-  </div>
-  <div className="container mx-auto w-full overflow-hidden relative pt-8 md:pt-20">
-    <div className="w-full h-full absolute">
-      <div className="w-1/4 h-full absolute z-50 left-0"></div>
-      <div className="w-1/4 h-full absolute z-50 right-0"></div>
-    </div>
-    <div
-      className="carousel-items flex items-center justify-center"
-      style={{
-        width: "fit-content",
-        animation: "carouselAnim 40s infinite alternate linear",
-      }}
-    >
-      {[...Array(20)].map((_, index) => (
-        <CarouselItem key={index} item={ObjetsCarrouisel[index]} />
-      ))}
-    </div>
-  </div>
-  <h1 className="pt-8 md:pt-20 text-2xl md:text-4xl font-extrabold leading-10 text-white text-center tracking-tight sm:text-4xl sm:leading-none md:text-4xl">
-    Skills Profesionales 🔰
-  </h1>
-  <div className="container mx-auto p-4">
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-<div className="flex justify-center"> 
-        <ul role="list" className="text-white">
-          {Skill.map((person) => (
-            <li
-              key={person.name}
-              className="col-span-1 rounded-lg mb-8 md:mb-0"
-            >
-              <div className="">
-                <div className="text mt-4">
-                  <p className="text-lg font-semibold">{person.name}</p>
-                  <div className="progress">
-                    <div className={` ${person.level}`}></div>
-                  </div>
-                </div>
-              </div>
-            </li>
+    <div className="bg-colorSecondary p-8 md:p-6" id="skills">
+      <h1 className="pt-8 md:pt-20 text-2xl md:text-4xl font-extrabold leading-10 text-white text-center tracking-tight sm:text-4xl sm:leading-none md:text-4xl">
+        Skills Técnicas 🎮
+      </h1>
+      <div className="flex mt-2 md:mt-6 justify-center">
+        <div className="w-16 h-1 rounded-full bg-colorComplementaryTwo inline-flex"></div>
+      </div>
+      <div className="container mx-auto w-full overflow-hidden relative pt-8 md:pt-20">
+        <div className="w-full h-full absolute">
+          <div className="w-1/4 h-full absolute z-50 left-0"></div>
+          <div className="w-1/4 h-full absolute z-50 right-0"></div>
+        </div>
+        <div
+          className="carousel-items flex items-center justify-center"
+          style={{
+            width: "fit-content",
+            animation: "carouselAnim 40s infinite alternate linear",
+          }}
+        >
+          {[...Array(20)].map((_, index) => (
+            <CarouselItem key={index} item={ObjetsCarrouisel[index]} />
           ))}
-        </ul>
+        </div>
       </div>
-      <div className="m-auto">
-        <img src={ImgGif.src} className="w-full md:w-96" />
-      </div>
-    </div>
+      <h1 className="pt-8 md:pt-20 text-2xl md:text-4xl font-extrabold leading-10 text-white text-center tracking-tight sm:text-4xl sm:leading-none md:text-4xl">
+        Skills Profesionales 🔰
+      </h1>
+      <div className="container mx-auto p-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+  <div className="flex justify-center">
+    <ul role="list" className="text-white">
+      {Skill.map((person) => (
+        <li
+          key={person.name}
+          className="col-span-1 rounded-lg mb-8 md:mb-0"
+        >
+          <div className="">
+            <div className="text mt-4">
+              <p className="text-lg font-semibold">{person.name}</p>
+              <div className="progress">
+                <div className={` ${person.level}`}></div>
+              </div>
+            </div>
+          </div>
+        </li>
+      ))}
+    </ul>
+  </div>
+  <div className="m-auto max-w-xs md:max-w-none md:w-96">
+    <img src={ImgGif.src} className="w-full" />
   </div>
 </div>
+
+      </div>
+    </div>
   );
 }
 const ObjetsCarrouisel = [

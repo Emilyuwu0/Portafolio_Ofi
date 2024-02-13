@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ImgHeader from "../../assets/Imgs/cat.svg";
+import Logo from "../../assets/Imgs/gato.png";
 import "./hero.scss";
 export default function Hero() {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,7 +32,7 @@ export default function Hero() {
         <nav className="p-4 z-30 mb-8">
           <div className="container mx-auto flex justify-between items-center">
             <div className="text-white font-semibold text-xl   sm:left-20 z-40 ">
-              <a href="/">Logo</a>
+          <a href="/">a</a>
             </div>
             <div className="hidden md:block  z-30 text-center m-auto">
               <ul className="space-x-4 flex font-light z-10  mt-2 right-20 cursor-pointer text-lg text-white ">

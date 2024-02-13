@@ -1,36 +1,29 @@
 import "./index.css";
 export default function Projects() {
   return (
-    <div className="bg-colorSecondary pt-8 md:pt-24 p-20 mb-8 md:mb-40" id="project">
-      <h1 className=" mb-4 text-4xl font-extrabold leading-10 text-white text-center tracking-tight sm:text-4xl sm:leading-none md:text-4xl">
-        Proyectos
-      </h1>
-      <div className="flex mt-2 md:mt-6 justify-center">
-        <div className="w-8 h-0.5 md:w-16 h-1 rounded-full bg-colorComplementaryTwo inline-flex mb-4 md:mb-16"></div>
-      </div>
-      <ul
-        role="list"
-        className="grid grid-cols-2 gap-8 md:gap-24 lg:grid-cols-2 xl:grid-cols-4 text-white"
-      >
-        {people.map((person) => (
-          <li key={person.name} className="col-span-1 rounded-lg mb-8">
+<div className="bg-colorSecondary pt-8 md:pt-24 p-8 md:p-20 mb-8 md:mb-16 lg:mb-40" id="project">
+  <h1 className="mb-4 text-4xl font-extrabold leading-10 text-white text-center tracking-tight sm:text-4xl sm:leading-none md:text-5xl">
+    Proyectos
+  </h1>
+  <div className="flex justify-center">
+    <div className="w-8 h-0.5 md:w-16 h-1 rounded-full bg-colorComplementaryTwo mb-4 md:mb-10 lg:mb-16"></div>
+  </div>
+  <ul role="list" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-6 md:gap-8 xl:gap-10 text-white">
+    {people.map((person) => (
+      <li key={person.name} className="rounded-lg mb-8">
         <div className="card shadow-lg">
-              <img
-                src={person.imageUrl}
-                alt=""
-                className="image-style w-full h-auto  p-2 "
-              />
+          <img src={person.imageUrl} alt="" className="image-style w-full h-auto p-2" />
+          <div className="text mt-4">
+            <p className="text-lg font-semibold">{person.name}</p>
+            <p className="text-black">{person.date}</p>
+            <p>{person.company}</p>
+          </div>
+        </div>
+      </li>
+    ))}
+  </ul>
+</div>
 
-              <div className="text mt-4">
-                <p className="text-lg  font-semibold">{person.name}</p>
-                <p className="p text-black">{person.date}</p>
-                <p className="p ">{person.company}</p>
-              </div>
-            </div>
-          </li>
-        ))}
-      </ul>
-    </div>
   );
 }
 const people = [
