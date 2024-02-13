@@ -32,14 +32,15 @@
 
 .progress {
   background: rgba(255,255,255,0.1);
-  justify-content: flex-start;
-  border-radius: 100px;
-  align-items: center;
-  position: relative;
-  padding: 0 5px;
-  display: flex;
-  height: 40px;
-  width: 500px;
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 3vh; /* Utilizamos porcentaje para la altura */
+    max-width: 100%; /* Evita que se desborde en pantallas pequeñas */
+    width: 90%; 
 }
 
 .progress-value {
