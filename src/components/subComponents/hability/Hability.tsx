@@ -60,7 +60,7 @@ export default function Hability() {
         >
           <div className="">
             <div className="text mt-4">
-              <p className="text-lg font-semibold">{person.name}</p>
+              <p className="text-lg font-semibold mb-4">{person.name}</p>
               <div className="progress">
                 <div className={` ${person.level}`}></div>
               </div>
