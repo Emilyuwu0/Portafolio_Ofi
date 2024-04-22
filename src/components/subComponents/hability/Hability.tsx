@@ -84,123 +84,104 @@ const ObjetsCarrouisel = [
     title: "Figma",
     description: "Ux / Web Design",
     imageUrl:
-      "https://cdn.discordapp.com/attachments/1030674863012200581/1189627410468048979/figma.png?ex=659ed9dc&is=658c64dc&hm=585238e6e6bfc549bbc9c03a757a75701bd544d29c449f23b38b77799a72060f&",
-  },
+"https://cdn.discordapp.com/attachments/1030674863012200581/1189627410468048979/figma.png?ex=663281dc&is=66200cdc&hm=2576980300f6aa584ee649842ce885e5893465bde48396e23bd691b3e8b1f3e5&"  },
   {
     title: "React ",
     description: "Frontend",
     imageUrl:
-      "https://cdn.discordapp.com/attachments/1030674863012200581/1189627563316879471/react.png?ex=659eda01&is=658c6501&hm=b7cf7fbe43db0c65b5a764ba1fac308b301367b88fc4ab52f0c4f5b2c0757e24&",
+      "https://cdn.discordapp.com/attachments/1030674863012200581/1189627563316879471/react.png?ex=66328201&is=66200d01&hm=9a9c5e0133a14c3314c4f22d7d7749fa734e22f75b86e3805c6146b2f838272c&",
   },
   {
     title: "Gatsby JS",
     description: "Frontend",
     imageUrl:
-      "https://cdn.discordapp.com/attachments/1030674863012200581/1189627563564355664/gatsby.png?ex=659eda01&is=658c6501&hm=71136efe67cb81bed8868610e657c9c49ba1a8183862306378ca0dad28b7c6dc&",
-  },
+"https://cdn.discordapp.com/attachments/1030674863012200581/1189627563564355664/gatsby.png?ex=66328201&is=66200d01&hm=1b9efd13ae4bb0742d3ff36f994935d5c1962a5b8dea222aff245f5ba0ff069b&"  },
   {
     title: "Vue 3",
     description: "Frontend",
     imageUrl:
-      "https://cdn.discordapp.com/attachments/1030674863012200581/1189627564633899189/vue.png?ex=659eda01&is=658c6501&hm=0d700097e58e1fce2cf2425e839f81ee03295194042dfc1151fa845d1a4b2c7d&",
-  },
+"https://cdn.discordapp.com/attachments/1030674863012200581/1189627564633899189/vue.png?ex=66274d41&is=6625fbc1&hm=a3a0bf4d1851f6017a9a487c0318cede45a60a66688d2390085e28ea1a0b3f7d&"  },
   {
     title: "Pug JS",
     description: "Frontend",
     imageUrl:
-      "https://cdn.discordapp.com/attachments/1030674863012200581/1189627563824398447/pug.png?ex=659eda01&is=658c6501&hm=e3eb65426a71dc2304cf404d733443ff876ff9bcbc12c4271c6e768aafafe589&",
-  },
+"https://cdn.discordapp.com/attachments/1030674863012200581/1189627563824398447/pug.png?ex=66328201&is=66200d01&hm=61d44e364a0e38b7f71c29b1c702c23130140fd619c9f83c142528cca7b7308f&"  },
   {
     title: "HTML 5",
     description: "Frontend",
     imageUrl:
-      "https://cdn.discordapp.com/attachments/1030674863012200581/1189627537253470268/html.png?ex=659ed9fb&is=658c64fb&hm=96e2acaf3ee81cabeb6b3499b3885aca1f1127be579a0e4029467f67b4d87713&",
-  },
+"https://cdn.discordapp.com/attachments/1030674863012200581/1189627537253470268/html.png?ex=663281fb&is=66200cfb&hm=6171f330358977cb6af1224fdaadaddf2c248f70f4d5e4a38ed3f4b17cf7491c&"  },
   {
     title: "JavaScript",
     description: "Frontend",
     imageUrl:
-      "https://cdn.discordapp.com/attachments/1030674863012200581/1189627564361273434/js.png?ex=659eda01&is=658c6501&hm=ac3e7bdc9a2854be58c5e0485befd575d25a728d333e31cb4787aaa22c057a1d&",
-  },
+"https://cdn.discordapp.com/attachments/1030674863012200581/1189627564361273434/js.png?ex=66328201&is=66200d01&hm=521a3d5e112272cae6668c1d0e1041b32f04ccb6937594149d7d7af4b5143aff&"  },
   {
     title: "Bootstrap ",
     description: "Frontend",
     imageUrl:
-      "https://cdn.discordapp.com/attachments/1030674863012200581/1189627564076048504/boots.png?ex=659eda01&is=658c6501&hm=c34f32c53617cec3e3f647434938dfb0f3839b825ad0fd46aa235fed37c84545&",
-  },
+"https://cdn.discordapp.com/attachments/1030674863012200581/1189627564076048504/boots.png?ex=66328201&is=66200d01&hm=02567086d839c2e75a47b404ba8a1497b87fcf13cc8354deac2e4b411bd34ddc&"  },
   {
     title: "Zeplin",
     description: "Ux / Web Design",
     imageUrl:
-      "https://cdn.discordapp.com/attachments/1030674863012200581/1189627548582281389/zeplin.png?ex=659ed9fd&is=658c64fd&hm=08461ef3285c68077080dfa2903a074bc6ae4cff13503ad4414373412323f31e&",
-  },
+"https://cdn.discordapp.com/attachments/1030674863012200581/1189627548582281389/zeplin.png?ex=663281fd&is=66200cfd&hm=50ea6e48f0d23b7fcac9904a88f1b8b20250ddeb59353ff4142095c3f1b32126&"  },
   {
     title: "GraphQL",
     description: "Frontend",
     imageUrl:
-      "https://cdn.discordapp.com/attachments/1030674863012200581/1189627579251040286/graph.png?ex=659eda05&is=658c6505&hm=92fee7d0404a43db805f6b19c440a1aa2ba18e203143f84135da3b22dd4e3e89&",
-  },
+"https://cdn.discordapp.com/attachments/1030674863012200581/1189627579251040286/graph.png?ex=66328205&is=66200d05&hm=a9e0435fc7efd7b6cc60749c59d19538546fb0efe07d2bc099f468b298b17304&"  },
 
   {
     title: "Reactstrap",
     description: "Frontend",
     imageUrl:
-      "https://cdn.discordapp.com/attachments/1030674863012200581/1189627579506905178/reacts.png?ex=659eda05&is=658c6505&hm=2918037d50d4a71ae318e7f148f396ba6de45ac704066fdb1e810bdc2c3c6411&",
-  },
+"https://cdn.discordapp.com/attachments/1030674863012200581/1189627579506905178/reacts.png?ex=66328205&is=66200d05&hm=f6b0cbdc2d010f4f3b9ae6e118cbf3d135d5247239886efd9371c3070e9a9281&"  },
   {
     title: "Sass",
     description: "Frontend",
     imageUrl:
-      "https://cdn.discordapp.com/attachments/1030674863012200581/1189627601518600422/sass.png?ex=659eda0a&is=658c650a&hm=fd17f9bab114f23387cd8ea42c1024a7da46316eb0d4da9567cdc4aac3656d0a&",
-  },
+"https://cdn.discordapp.com/attachments/1030674863012200581/1189627601518600422/sass.png?ex=66274d4a&is=6625fbca&hm=63973b0f9488bf014cf7ccb647bb2d707bf85ebee05feb9dea88b0d1dc57d1a0&"  },
   {
     title: "CSS 3",
     description: "Frontend",
     imageUrl:
-      "https://cdn.discordapp.com/attachments/1030674863012200581/1189627601732521994/css.png?ex=659eda0a&is=658c650a&hm=2c739ca1d296c4dc663257365337045173d70ae34e148a47232e1159fa5b05c4&",
-  },
+"https://cdn.discordapp.com/attachments/1030674863012200581/1189627601732521994/css.png?ex=6632820a&is=66200d0a&hm=3f13578aa8e9b48883b894f1771734cbb5ae37b3d1f3fa88d117cb876bc4b6a8&"  },
   {
     title: "Discord",
     description: "Otros",
     imageUrl:
-      "https://cdn.discordapp.com/attachments/1030674863012200581/1189627601275334776/dis.png?ex=659eda0a&is=658c650a&hm=f502bf810e6e48674a7ea53b132ca63131a714c22fa44a790924bbc621e7098f&",
-  },
+"https://cdn.discordapp.com/attachments/1030674863012200581/1189627601275334776/dis.png?ex=6632820a&is=66200d0a&hm=956748c84fdd6dfda229775686bdda1f9e3c290cd934aa09aba366637343759f&"  },
   {
     title: "Tailwind",
     description: "Frontend",
     imageUrl:
-      "https://cdn.discordapp.com/attachments/1030674863012200581/1189627601988366367/tail.png?ex=659eda0a&is=658c650a&hm=e313c2092920aabac1685d581d1465b168846e4c63f155323b9db139e92b4984&",
-  },
+"https://cdn.discordapp.com/attachments/1030674863012200581/1189627601988366367/tail.png?ex=6632820a&is=66200d0a&hm=f6b149409ba3788101f135b271849f94659e2b7b566679fba67eddc12f50e975&"  },
   {
     title: "Ant Design",
     description: "Frontend",
     imageUrl:
-      "https://cdn.discordapp.com/attachments/1030674863012200581/1189627602185494651/antd.png?ex=659eda0a&is=658c650a&hm=22b33c50910aa88976a814bb0ec71307377e107a1830d372dc452e54dc47a1b7&",
-  },
+"https://cdn.discordapp.com/attachments/1030674863012200581/1189627602185494651/antd.png?ex=6632820a&is=66200d0a&hm=531df84185dc2b5c1780526e6280b0382b418b52825895b349e3412ec7a8fd76&"  },
   {
     title: "Git",
     description: "Controlador de versiones",
     imageUrl:
-      "https://cdn.discordapp.com/attachments/1030674863012200581/1189627602491691068/git.png?ex=659eda0a&is=658c650a&hm=8116e2f39a17bb4731ddffda1fe55d5968a5200b7b3b2a0e361807083c292857&",
-  },
+"https://cdn.discordapp.com/attachments/1030674863012200581/1189627602491691068/git.png?ex=6632820a&is=66200d0a&hm=c888f954e830bc87e27ef53bc9a92ccfbcff70b1f995ec0d9c00171ca171196e&"  },
   {
     title: "Bulma CSS",
     description: "Frontend",
     imageUrl:
-      "https://cdn.discordapp.com/attachments/1030674863012200581/1189627610804801536/bulma.png?ex=659eda0c&is=658c650c&hm=350818f1a3f0fd8ad02c66e1d953eea8df90e6d79cc6f70e8a904d989d3fa73d&",
-  },
+"https://cdn.discordapp.com/attachments/1030674863012200581/1189627610804801536/bulma.png?ex=6632820c&is=66200d0c&hm=74ebf5f1e571b499842d98896aa177aedcaccba4d5caec1887ff05db10c1bc2b&"  },
   {
     title: " S3",
     description: "Aws",
     imageUrl:
-      "https://cdn.discordapp.com/attachments/1030674863012200581/1189627610586677268/s3.png?ex=659eda0c&is=658c650c&hm=a37b13f5e905909c71e5d034be6798660be9c6d10ebce3bff2239e40b2dbddfb&",
-  },
+"https://cdn.discordapp.com/attachments/1030674863012200581/1189627610586677268/s3.png?ex=6632820c&is=66200d0c&hm=5613a506ba3553df7fa166bd6db5776673b8b1d02eb7d7ee9ec0c46eb26d9838&"  },
   {
     title: "Core Ui",
     description: "Frontend",
     imageUrl:
-      "https://cdn.discordapp.com/attachments/1030674863012200581/1189627611060637736/coreui.png?ex=659eda0c&is=658c650c&hm=bc6635b6834fa682b05d07526909277faaafe415bbd785c49ec69ddc75f43508&",
-  },
+"https://cdn.discordapp.com/attachments/1030674863012200581/1189627611060637736/coreui.png?ex=66274d4c&is=6625fbcc&hm=42ffe01ceb11a058f33c8096fe3034f1a125f02d06d358367c79d8821e7ae6ea&"  },
 ];
 
 const Skill = [
