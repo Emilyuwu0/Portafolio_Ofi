@@ -46,7 +46,7 @@ export default function Timeline() {
             <h3 className="font-bold mb-4"> Desarrolladora Junior Front-end</h3>
             <p>
               Chefmenu · Jornada completa <br />
-              mar. 2020 - sept. 2020 <br /> 7 meses.
+              mar. 2020 - sept. 2020 <br /> 7 meses
             </p>
           </div>
 
