@@ -9,7 +9,7 @@ export default function Hability() {
         Mira mi <span className="text-colorTertiary">Currículum</span>
       </h1>
       <p className="text-white text-base md:text-lg">
-        Mi pasión por desarrollar me impulsa a ofrecer resultados excepcionales y contribuir de manera significativa a cualquier equipo en el que me encuentre. Estoy emocionada por las oportunidades futuras y espero aplicar mis habilidades y experiencia para alcanzar nuevos logros.
+        Mi pasión por desarrollar me impulsa a ofrecer resultados excepcionales y contribuir de manera significativa a cualquier equipo en el que me encuentre. <br/>Estoy emocionada por las oportunidades futuras y espero aplicar mis habilidades y experiencia para alcanzar nuevos logros.
       </p>
     </div>
     <div className="p-4 md:p-10 text-center">
