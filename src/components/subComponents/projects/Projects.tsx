@@ -17,18 +17,19 @@ export default function Projects() {
       >
         {people.map((person) => (
           <li key={person.name} className="rounded-lg mb-8">
-            <div className="card shadow-lg">
+            <a target="_blank" href={person.href}> <div className="card shadow-lg">
               <img
                 src={person.imageUrl}
                 alt=""
                 className="image-style w-full h-auto p-2"
               />
               <div className="text mt-4">
+              
                 <p className="text-lg font-semibold">{person.name}</p>
                 <p className="text-black">{person.date}</p>
                 <p>{person.company}</p>
               </div>
-            </div>
+            </div></a>
           </li>
         ))}
       </ul>
@@ -36,15 +37,17 @@ export default function Projects() {
   );
 }
 const people = [
-  {
+/*   {
     name: "Ecommerce Tiendas D1",
+    href:"https://ceslegal.co",
     date: "Jul. 2020 - oct. 2020",
     company: "Asociada con Pyra Lab",
     imageUrl:
       "https://cdn.discordapp.com/attachments/966004692985475183/1189675482128592956/1605201945134.png?ex=6632aea2&is=662039a2&hm=819d21986bac2c810740771ef95de5910f6cfa60dbf606207ee274ff1a71fb34&",
-  },
+  }, */
   {
     name: "Pagina Web IPCOM",
+    href:"https://ipcom.ai",
     date: "Sept. 2021 - feb. 2022",
     company: "Asociada con IPCOM",
     imageUrl:
@@ -52,6 +55,7 @@ const people = [
   },
   {
     name: "Pagina Web INNOVA",
+    href:"https://innovapya.com/#!/-bienvenido/",
     date: "Sept. 2022 - sept. 2022",
     company: "Asociada con INNOVA",
     imageUrl:
@@ -59,6 +63,7 @@ const people = [
   },
   {
     name: "Lil Interns",
+    href:"https://www.lilinterns.com",
     date: "Dic. 2022 - ene. 2023",
     company: "Asociada con AntPack",
     imageUrl:
@@ -66,6 +71,7 @@ const people = [
   },
   {
     name: "Shipyard",
+    href:"https://tryshipyard.com",
     date: "Oct. 2022 - ene. 2023",
     company: "Asociada con AntPack",
     imageUrl:
@@ -73,6 +79,7 @@ const people = [
   },
   {
     name: "Ceslegal",
+    href:"https://ceslegal.co",
     date: "abr. 2023 - abr. 20233",
     company: "Asociada con Ceslegal",
     imageUrl:
@@ -80,6 +87,7 @@ const people = [
   },
   {
     name: "Gws",
+    href:"https://gws.antpk.co/login",
     date: "Feb. 2024 - Dic. 2023",
     company: "Asociada con AntPack",
     imageUrl:
@@ -87,6 +95,7 @@ const people = [
   },
   {
     name: "Arcadia Rp",
+    href:"https://arcadiarp.vercel.app",
     date: "Dic. 2023",
     company: "Independiente",
     imageUrl:
